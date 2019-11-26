@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ getEscola()
+comment1.params=escola
+comment1.target=void\ setEscola(java.lang.String)
+comment2.params=
+comment2.target=float\ getVencimento()
+comment3.params=
+comment3.target=float\ calculaVencimento()
+numComments=4

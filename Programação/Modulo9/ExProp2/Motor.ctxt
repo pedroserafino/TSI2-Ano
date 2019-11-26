@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=double\ getpotencia()
+comment1.params=potencia
+comment1.target=void\ setpotencia(double)
+comment2.params=
+comment2.target=Motor()
+comment3.params=potencia
+comment3.target=void\ Potencia(double)
+numComments=4

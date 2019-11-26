@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ getnome()
+comment1.params=nome
+comment1.target=void\ setnome(java.lang.String)
+comment2.params=
+comment2.target=int\ getidade()
+comment3.params=idade
+comment3.target=void\ setidade(int)
+comment4.params=
+comment4.target=boolean\ getcartaconducao()
+comment5.params=cartaconducao
+comment5.target=void\ setcartaconducao(boolean)
+comment6.params=
+comment6.target=Condutor()
+comment6.text=\r\n\ COnstrutor\ para\ objetos\ da\ classe\ CarroPasseio\r\n
+comment7.params=nome\ idade\ c
+comment7.target=void\ RegCond(java.lang.String,\ int,\ boolean)
+comment8.params=
+comment8.target=boolean\ PermCond()
+numComments=9

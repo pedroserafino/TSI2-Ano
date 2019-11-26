@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Pessoa()
+comment0.text=\r\n\ COnstrutor\ para\ classe\ Pessoa\ default\r\n
+comment1.params=n\ g
+comment1.target=Pessoa(java.lang.String,\ char)
+comment2.params=n\ g\ i
+comment2.target=Pessoa(java.lang.String,\ char,\ int)
+comment3.params=
+comment3.target=void\ falar()
+numComments=4
