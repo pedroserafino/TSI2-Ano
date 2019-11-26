@@ -26,7 +26,7 @@ public class Professor extends Pessoa
         this.escalao = escalao;
     }
     public Professor(){}
-    public Professor(int grupoDocencia,int escalao,String nome,String morada,int idade,char genero,long contacto)
+    public Professor(String nome,String morada,int idade,char genero,long contacto,int grupoDocencia,int escalao)
     {
         super (nome,morada,idade,genero,contacto);
         this.grupoDocencia=grupoDocencia;

@@ -57,7 +57,7 @@ public class Pessoa
     {
         this.nome=nome;
         this.morada=morada;
-        this.idade0idade;
+        this.idade=idade;
         this.genero=genero;
         this.contacto=contacto;
     }
@@ -66,7 +66,7 @@ public class Pessoa
     }
     public void falar(String frase)
     {
-        Syste.out.println(frase);
+        System.out.println(frase);
     }
     public String toString()
     {

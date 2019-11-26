@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ getGrupoDocencia()
+comment1.params=grupoDocencia
+comment1.target=void\ setGrupoDocencia(int)
+comment2.params=
+comment2.target=int\ getEscalao()
+comment3.params=escalao
+comment3.target=void\ setEscalao(int)
+comment4.params=
+comment4.target=Professor()
+comment5.params=nome\ morada\ idade\ genero\ contacto\ grupoDocencia\ escalao
+comment5.target=Professor(java.lang.String,\ java.lang.String,\ int,\ char,\ long,\ int,\ int)
+comment6.params=
+comment6.target=void\ falar()
+numComments=7

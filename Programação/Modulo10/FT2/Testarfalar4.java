@@ -1,33 +1,12 @@
-
-/**
- * Escreva a descrição da classe Testarfalar4 aqui.
- * 
- * @author (seu nome) 
- * @version (número de versão ou data)
- */
+import java.util.Scanner;
 public class Testarfalar4
 {
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private int x;
-
-    /**
-     * COnstrutor para objetos da classe Testarfalar4
-     */
-    public Testarfalar4()
+    public static void main(String[] args)
     {
-        // inicializa variáveis de instância
-        x = 0;
-    }
-
-    /**
-     * Exemplo de método - substitua este comentário pelo seu próprio
-     * 
-     * @param  y   exemplo de um parâmetro de método
-     * @return     a soma de x com y 
-     */
-    public int sampleMethod(int y)
-    {
-        // ponha seu código aqui
-        return x + y;
+        Alunos aluno= new Alunos();
+        Scanner s=new Scanner(System.in);
+        System.out.println("Escreva a frase que deseja ser proferida pelo aluno: ");
+        String frase=s.nextLine();
+        aluno.falar(frase);
     }
 }

@@ -1,33 +1,32 @@
-
-/**
- * Escreva a descrição da classe CriaPessoa1 aqui.
- * 
- * @author (seu nome) 
- * @version (número de versão ou data)
- */
+import java.util.Scanner;
 public class CriaPessoa1
 {
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private int x;
-
-    /**
-     * COnstrutor para objetos da classe CriaPessoa1
-     */
-    public CriaPessoa1()
-    {
-        // inicializa variáveis de instância
-        x = 0;
+    public static void mai(String[] args){
+    Scanner s=new Scanner(System.in);
+    System.out.println("A - a Aluno");
+    System.out.println("P - p professor");
+    System.out.println("indique se é aluno ou professor");
+    String escolha=s.nextLine();
+    Pessoa ds;
+    if((escolha.equals("A")||(escolha.equals("a")))){
+        ds = new Alunos();
     }
-
-    /**
-     * Exemplo de método - substitua este comentário pelo seu próprio
-     * 
-     * @param  y   exemplo de um parâmetro de método
-     * @return     a soma de x com y 
-     */
-    public int sampleMethod(int y)
-    {
-        // ponha seu código aqui
-        return x + y;
+    else if((escolha.equals("P")||(escolha.equals("p")))){
+        ds = new Professor();
+    }
+    else{
+        System.out.println("Opção invalida");
+        ds = new Pessoa();
+    }
+        System.out.println("Nome: ");
+        String nome=s.nextLine();
+        System.out.println("Morada: ");
+        String morada=s.nextLine();
+        System.out.println("Sexo: ");
+        char genero=s.next().charAt(0);
+        System.out.println("Idade: ");
+        int idade=s.nextInt();
+        System.out.println("Contacto?: ");
+        long contacto=s.nextLong();
     }
 }

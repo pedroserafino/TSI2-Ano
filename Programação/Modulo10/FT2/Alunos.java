@@ -18,14 +18,14 @@ public class Alunos extends Pessoa
     public void setTurma(String turma) {
         this.turma = turma;
     }
-    public Aluno(){}
-    public Aluno(String nome,String morada,int idade,char genero,long contacto,String turma,int numAlunos)
+    public Alunos(){}
+    public Alunos(String nome,String morada,int idade,char genero,long contacto,int numAlunos,String turma)
     {
         super(nome,morada,idade,genero,contacto);
         this.turma=turma;
         this.numAlunos=numAlunos;
     }
-    public falar()
+    public void falar()
     {
         super.falar();
         System.out.println("e sou aluno");
