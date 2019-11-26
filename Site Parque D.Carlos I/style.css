@@ -1,0 +1,262 @@
+a{
+    text-decoration: none;
+}
+body{
+    background-image: url("img/BackGround.jpg");
+    background-repeat: no-repeat;
+    background-size: 400%;
+}
+textarea{
+    font-family: 'Montserrat';
+    animation: textarea_animation;
+    animation-duration: 2.5s;
+    transition: all 0.5s;
+    padding: 5px;
+    border-block-color: Black;
+    border: 2px solid black;
+}
+.button_submit{
+    font-family: 'Montserrat';
+    animation: textarea_animation;
+    animation-duration: 2.5s;
+    border-block-color: Black;
+    letter-spacing: 1px;
+    border: 1px solid black;
+    transition: all 2s;
+    background-color: white;
+    padding: 20px;
+    font-size: 20px;
+
+}
+.button_submit:hover{
+    transform: scale(1.01);
+    color: white;
+    background-color: black;
+}
+textarea:hover{
+    transform: scale(1.01);
+}
+.home_text{
+    font-family: 'Montserrat';
+    padding: 5px;
+}
+.home_title{
+    font-family: 'Montserrat';
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.home_div{
+    font-family: 'Montserrat';
+    padding: 5px;
+    border-block-color: Black;
+    letter-spacing: 1px;
+    border: 1px solid black;
+    transition: all 0.5s;
+    padding: 10px;
+    margin-top: 5px;
+}
+@keyframes textarea_animation{
+    from{
+        margin-left: 1000px;
+    }
+    to{
+        margin-left: 0px;
+    }
+}
+.home_div:hover {
+    transform: scale(1.01);
+}
+.menu_item{
+    font-family: 'Montserrat';
+    animation: menu_animation;
+    animation-duration: 2.0s;
+    border: 1px solid black;
+    font-size: 22px;
+    text-decoration: none;
+    transition: all 0.5s;
+    color: black;
+}
+.menu_item:hover{
+    transform: scale(1.01);
+}
+
+@keyframes menu_animation{
+    from{
+        margin-left: 25px;
+    }
+    to{
+        margin-left: 0px;
+    }
+}
+.title{
+    font-family: 'Montserrat';
+    padding: 5px;
+    font-size: 52px;
+}
+
+img {
+    transition: all 0.5s;
+    
+}
+.home_img{
+    height: 800px;
+    margin-left: 100px;   
+}
+img:hover {
+    transform: scale(1.01);
+}
+.map{
+    margin-left: 45px;
+    margin-top: 50px;
+    
+    width: 100%;
+}
+iframe{
+    height: 660px;
+    width: 90%;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat';
+    padding: 5px;
+    margin-top: 5px;
+    height: 60px;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+details:hover{
+    transform: scale(1.01);
+}
+details{
+    transition: all 0.5s;
+    animation: menu_animation;
+    animation-duration: 2.0s;
+}
+summary:houver{
+    transform: scale(1.01);
+}
+summary{
+    transition: all 0.5s;
+    animation: menu_animation;
+    animation-duration: 2.0s;
+}
+@keyframes table_animation{
+    from{
+        margin-left: 1000px;
+    }
+    to{
+        margin-left: 450px;
+    }
+}
+table{
+    height: 300px;
+    animation: table_animation;
+    animation-duration: 2.5s;
+    
+    transition: all 0.5s;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 450px;
+}
+
+td{
+    transition: all 0.5s;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.av_but{
+    font-family: 'Montserrat';
+    border-block-color: Black;
+    letter-spacing: 1px;
+    border: 1px solid black;
+    transition: all 2s;
+    padding: 20px;
+    display: inline;
+    background-color: white;
+    margin-right: 1px;
+}
+.av_but:hover {
+    transform: scale(1.01);
+    background-color: blue;
+    cursor: pointer;
+}
+.av_but1{
+    font-family: 'Montserrat';
+    border-block-color: Black;
+    letter-spacing: 1px;
+    border: 1px solid black;
+    transition: all 2s;
+    padding: 20px;
+    display: inline;
+    background-color: white;
+    margin-right: 1px;
+}
+.av_but2{
+    font-family: 'Montserrat';
+    border-block-color: Black;
+    letter-spacing: 1px;
+    border: 1px solid black;
+    transition: all 2s;
+    padding: 20px;
+    display: inline;
+    background-color: white;
+    margin-right: 1px;
+}
+.av_but3{
+    font-family: 'Montserrat';
+    border-block-color: Black;
+    letter-spacing: 1px;
+    border: 1px solid black;
+    transition: all 2s;
+    padding: 20px;
+    display: inline;
+    background-color: white;
+    margin-right: 1px;
+}
+.av_but4{
+    font-family: 'Montserrat';
+    border-block-color: Black;
+    letter-spacing: 1px;
+    border: 1px solid black;
+    transition: all 2s;
+    background-color: white;
+    padding: 20px;
+    display: inline;
+    
+    margin-right: 1px;
+}
+.av_but1:hover{
+    transform: scale(1.01);
+    background-color: #34eb80;
+    cursor: pointer;
+}
+.av_but2:hover{
+    transform: scale(1.01);
+    background-color: yellow;
+    cursor: pointer;
+}
+.av_but3:hover{
+    transform: scale(1.01);
+    background-color: orangered;
+    cursor: pointer;
+}
+.av_but4:hover{
+    transform: scale(1.01);
+    background-color: red;
+    cursor: pointer;
+}
+.av_img{
+    height: 300px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 25px;  
+}
+.thk_title{
+    font-family: 'Montserrat';
+    padding: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
