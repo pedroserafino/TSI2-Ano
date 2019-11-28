@@ -7,27 +7,10 @@
  */
 public class Veterinario
 {
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private int x;
-
-    /**
-     * COnstrutor para objetos da classe Veterinario
-     */
-    public Veterinario()
-    {
-        // inicializa variáveis de instância
-        x = 0;
+    public Veterinario() {
     }
 
-    /**
-     * Exemplo de método - substitua este comentário pelo seu próprio
-     * 
-     * @param  y   exemplo de um parâmetro de método
-     * @return     a soma de x com y 
-     */
-    public int sampleMethod(int y)
-    {
-        // ponha seu código aqui
-        return x + y;
+    public void examinar(Animal animal) {
+        animal.emitirSom();
     }
 }

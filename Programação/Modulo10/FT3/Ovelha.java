@@ -5,29 +5,16 @@
  * @author (seu nome) 
  * @version (número de versão ou data)
  */
-public class Ovelha
+public class Ovelha extends Mamifero
 {
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private int x;
-
-    /**
-     * COnstrutor para objetos da classe ovelha
-     */
-    public Ovelha()
-    {
-        // inicializa variáveis de instância
-        x = 0;
+    public Ovelha() {
     }
 
-    /**
-     * Exemplo de método - substitua este comentário pelo seu próprio
-     * 
-     * @param  y   exemplo de um parâmetro de método
-     * @return     a soma de x com y 
-     */
-    public int sampleMethod(int y)
-    {
-        // ponha seu código aqui
-        return x + y;
+    public void pastar() {
+        System.out.println("A ovelha pasta");
+    }
+
+    public void emitirSom() {
+        System.out.println("A ovelha bale");
     }
 }

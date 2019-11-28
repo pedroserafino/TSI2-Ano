@@ -10,8 +10,8 @@ public class Macaco
     public Macaco(){
 
     }
-    public void correr(){
-        System.out.println("O macaco salta");
+    public void subirAvrvores(){
+        System.out.println("O macaco salta pelas arvores");
     }
     public void emitirSom(){
         System.out.println("O macaco guincha");

@@ -5,29 +5,16 @@
  * @author (seu nome) 
  * @version (número de versão ou data)
  */
-public class Salmao
+public class Salmao extends Peixe
 {
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private int x;
+    public Salmao(){
 
-    /**
-     * COnstrutor para objetos da classe Salmao
-     */
-    public Salmao()
-    {
-        // inicializa variáveis de instância
-        x = 0;
+    }
+    public void nadar() {
+        System.out.println("O salmao nada");
     }
 
-    /**
-     * Exemplo de método - substitua este comentário pelo seu próprio
-     * 
-     * @param  y   exemplo de um parâmetro de método
-     * @return     a soma de x com y 
-     */
-    public int sampleMethod(int y)
-    {
-        // ponha seu código aqui
-        return x + y;
+    public void emitirSom() {
+        System.out.println("O salmao borbulha");
     }
 }

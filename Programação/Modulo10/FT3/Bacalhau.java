@@ -1,33 +1,13 @@
+public class Bacalhau extends peixe{
 
-/**
- * Escreva a descrição da classe Bacalhau aqui.
- * 
- * @author (seu nome) 
- * @version (número de versão ou data)
- */
-public class Bacalhau
-{
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private int x;
+    public Bacalhau(){
 
-    /**
-     * COnstrutor para objetos da classe Bacalhau
-     */
-    public Bacalhau()
-    {
-        // inicializa variáveis de instância
-        x = 0;
+    }
+    public void nadar(){
+        System.out.println("O bacalhau nada");
+    }
+    public void emitirSom(){
+        System.out.println("O bacalhau borbulha");
     }
 
-    /**
-     * Exemplo de método - substitua este comentário pelo seu próprio
-     * 
-     * @param  y   exemplo de um parâmetro de método
-     * @return     a soma de x com y 
-     */
-    public int sampleMethod(int y)
-    {
-        // ponha seu código aqui
-        return x + y;
-    }
 }

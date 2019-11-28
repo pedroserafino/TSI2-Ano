@@ -1,33 +1,16 @@
 
-/**
- * Escreva a descrição da classe ConstrutorGenerico aqui.
- * 
- * @author (seu nome) 
- * @version (número de versão ou data)
- */
 public class ConstrutorGenerico
 {
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private int x;
-
-    /**
-     * COnstrutor para objetos da classe ConstrutorGenerico
-     */
-    public ConstrutorGenerico()
-    {
-        // inicializa variáveis de instância
-        x = 0;
-    }
-
-    /**
-     * Exemplo de método - substitua este comentário pelo seu próprio
-     * 
-     * @param  y   exemplo de um parâmetro de método
-     * @return     a soma de x com y 
-     */
-    public int sampleMethod(int y)
-    {
-        // ponha seu código aqui
-        return x + y;
+    public Animal criarAnimal(String tipoAnimal){
+        if(tipoAnimal.equals("cao"))
+            return new Cao();
+        else if(tipoAnimal.equals("macaco"))
+            return new Macaco();
+        else if(tipoAnimal.equals("pato"))
+            return new Pato();
+        else if(tipoAnimal.equals("cavalo"))
+            return new Cavalo();
+        else
+            return new Animal();
     }
 }

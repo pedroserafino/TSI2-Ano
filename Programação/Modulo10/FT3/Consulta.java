@@ -1,33 +1,39 @@
-
-/**
- * Escreva a descrição da classe Consulta aqui.
- * 
- * @author (seu nome) 
- * @version (número de versão ou data)
- */
+//Pedro Serafim
+import java.util.Scanner;
 public class Consulta
 {
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private int x;
+    public static void main(String [] args){
+        Veterinario veterinario= new Veterinario();
 
-    /**
-     * COnstrutor para objetos da classe Consulta
-     */
-    public Consulta()
-    {
-        // inicializa variáveis de instância
-        x = 0;
-    }
+        Scanner s = new Scanner(System.in);
+        System.out.println("Insira o tipo de animal: ");
+        String tipoAnimal=s.nextLine();
 
-    /**
-     * Exemplo de método - substitua este comentário pelo seu próprio
-     * 
-     * @param  y   exemplo de um parâmetro de método
-     * @return     a soma de x com y 
-     */
-    public int sampleMethod(int y)
-    {
-        // ponha seu código aqui
-        return x + y;
+        Animal animal;
+        if(tipoAnimal.equals("atum"))
+            animal = new Atum();
+        else if(tipoAnimal.equals("bacalhau"))
+            animal = new Bacalhau();
+        else if(tipoAnimal.equals("canario"))
+            animal = new Canario();
+        else if(tipoAnimal.equals("cao"))
+            animal = new Cao();
+        else if(tipoAnimal.equals("cavalo"))
+            animal = new Cavalo();
+        else if(tipoAnimal.equals("macaco"))
+            animal = new Macaco();
+        else if(tipoAnimal.equals("ovelha"))
+            animal = new Ovelha();
+        else if(tipoAnimal.equals("papagaio"))
+            animal = new Papagaio();
+        else if(tipoAnimal.equals("pato"))
+            animal = new Pato();
+        else if(tipoAnimal.equals("salmao"))
+            animal = new Salmao();
+        else {
+            System.out.println("Animal invalido!");
+            animal = new Animal();
+        }
+        veterinario.examinar(animal);
     }
 }

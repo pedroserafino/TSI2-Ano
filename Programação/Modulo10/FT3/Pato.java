@@ -5,29 +5,14 @@
  * @author (seu nome) 
  * @version (número de versão ou data)
  */
-public class Pato
+public class Pato extends Ave
 {
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private int x;
-
-    /**
-     * COnstrutor para objetos da classe Pato
-     */
-    public Pato()
-    {
-        // inicializa variáveis de instância
-        x = 0;
+    public Pato
+    public void voar() {
+        System.out.println("O pato voa");
     }
 
-    /**
-     * Exemplo de método - substitua este comentário pelo seu próprio
-     * 
-     * @param  y   exemplo de um parâmetro de método
-     * @return     a soma de x com y 
-     */
-    public int sampleMethod(int y)
-    {
-        // ponha seu código aqui
-        return x + y;
+    public void emitirSom() {
+        System.out.println("O pato grasna");
     }
 }

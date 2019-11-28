@@ -7,18 +7,13 @@
  */
 public abstract class Ave
 {
-    // variáveis de instância - substitua o exemplo abaico pelo seu código
-    int x;
+    public Ave(){
 
-    /**
-     * Um exemplo de método - substitua este exemplo pelo seu código
-     * 
-     * @param  y    um exemplo de parâmetro de método
-     * @return        a soma de x com y
-     */
-    public int sampleMethod(int y)
-    {
-        // ponha seu código aqui
-        return x + y;
+    }
+    public void voar(){
+        System.out.println("A ave voa");
+    }
+    public void porOvos(){
+        System.out.println("A ave poe ovos")
     }
 }

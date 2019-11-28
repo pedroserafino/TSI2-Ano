@@ -5,29 +5,14 @@
  * @author (seu nome) 
  * @version (número de versão ou data)
  */
-public class Atum
+public class Atum extends Peixe
 {
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private int x;
+    public Atum(){}
 
-    /**
-     * COnstrutor para objetos da classe Atum
-     */
-    public Atum()
-    {
-        // inicializa variáveis de instância
-        x = 0;
+    public void nadar(){
+        System.out.println("O Atum nada");
     }
-
-    /**
-     * Exemplo de método - substitua este comentário pelo seu próprio
-     * 
-     * @param  y   exemplo de um parâmetro de método
-     * @return     a soma de x com y 
-     */
-    public int sampleMethod(int y)
-    {
-        // ponha seu código aqui
-        return x + y;
+    public void emitirSom(){
+        System.out.println("o atum borbulha");
     }
 }

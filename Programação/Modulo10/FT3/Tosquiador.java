@@ -7,27 +7,11 @@
  */
 public class Tosquiador
 {
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private int x;
+    public Tosquiador(){
 
-    /**
-     * COnstrutor para objetos da classe Tosquiador
-     */
-    public Tosquiador()
-    {
-        // inicializa variáveis de instância
-        x = 0;
     }
 
-    /**
-     * Exemplo de método - substitua este comentário pelo seu próprio
-     * 
-     * @param  y   exemplo de um parâmetro de método
-     * @return     a soma de x com y 
-     */
-    public int sampleMethod(int y)
-    {
-        // ponha seu código aqui
-        return x + y;
+    public void tosquiar(Ovelha ovelha) {
+        ovelha.emitirSom();
     }
 }

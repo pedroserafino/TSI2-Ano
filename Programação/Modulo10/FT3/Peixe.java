@@ -5,20 +5,17 @@
  * @author (seu nome aqui)
  * @version (versão ou data)
  */
-public abstract class Peixe
+public abstract class Peixe extends Animal
 {
-    // variáveis de instância - substitua o exemplo abaico pelo seu código
-    int x;
+    public Peixe(){
 
-    /**
-     * Um exemplo de método - substitua este exemplo pelo seu código
-     * 
-     * @param  y    um exemplo de parâmetro de método
-     * @return        a soma de x com y
-     */
-    public int sampleMethod(int y)
-    {
-        // ponha seu código aqui
-        return x + y;
+    }
+
+    public void nadar() {
+        System.out.println("O peixe nada");
+    }
+
+    public void porOvos() {
+        System.out.println("O peixe poe ovos");
     }
 }

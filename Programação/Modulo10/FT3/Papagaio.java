@@ -5,29 +5,17 @@
  * @author (seu nome) 
  * @version (número de versão ou data)
  */
-public class Papagaio
+public class Papagaio extends Ave
 {
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private int x;
+    public Papagaio(){
 
-    /**
-     * COnstrutor para objetos da classe Papagaio
-     */
-    public Papagaio()
-    {
-        // inicializa variáveis de instância
-        x = 0;
     }
 
-    /**
-     * Exemplo de método - substitua este comentário pelo seu próprio
-     * 
-     * @param  y   exemplo de um parâmetro de método
-     * @return     a soma de x com y 
-     */
-    public int sampleMethod(int y)
-    {
-        // ponha seu código aqui
-        return x + y;
+    public void voar() {
+        System.out.println("O papagaio voa");
+    }
+
+    public void emitirSom() {
+        System.out.println("O papagaio palra");
     }
 }
