@@ -1,9 +1,10 @@
 
+
 /**
- * 
+ *
  * Guilherme Morgado, José Pereira, Pedro Serafim
  * 28-11-2019
- * 
+ *
  */
 public class Robot{
 
@@ -12,8 +13,8 @@ public class Robot{
     private double temperature;
     private byte status;
     private int power;
-    private int maxSpeed;
-    private int currentSpeed;
+    private int maxSpeed=400;
+    private double currentSpeed;
 
     public String getName() {
         return name;
@@ -35,11 +36,11 @@ public class Robot{
         return maxSpeed;
     }
 
-    public int getCurrentSpeed() {
+    public double getCurrentSpeed() {
         return currentSpeed;
     }
 
-    public void setCurrentSpeed(int currentSpeed) {
+    public void setCurrentSpeed(double currentSpeed) {
         this.currentSpeed = currentSpeed;
     }
 
@@ -55,8 +56,11 @@ public class Robot{
         this.name = name;
     }
 
-    private void setSpeed(double speed) {
+    public void setSpeed(double speed) { //Se fosse private
         this.speed = speed;
+    }
+    public void setPower(int power){
+      this.power=power;
     }
 
     public Robot(){
@@ -92,7 +96,7 @@ public class Robot{
 
     }
 
-    public void speedUp(int speed) {
+    public void speedUp(double speed) {
         if(this.currentSpeed + speed <= this.maxSpeed) {
             this.currentSpeed += speed;
             this.temperature += (speed * 0.5);
@@ -108,8 +112,19 @@ public class Robot{
             this.status = 2;
         }
     }
-    
-    public void speedDown(int speed) {
+
+    public void speedDown(double speed) {
+        if(this.currentSpeed - speed >= 0) {
+            this.currentSpeed -= speed;
+            this.temperature -= (speed * 0.5);
+            if(this.currentSpeed == 0)
+
+
+
+                this.status = 4;
+        }
+    }
+    public void speedDown() {
         if(this.currentSpeed - speed >= 0) {
             this.currentSpeed -= speed;
             this.temperature -= (speed * 0.5);
@@ -142,5 +157,4 @@ public class Robot{
         if(this.status == 2)
             this.status=5;
     }
-
 }
