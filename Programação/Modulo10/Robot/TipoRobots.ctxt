@@ -1,6 +1,12 @@
 #BlueJ class context
+<<<<<<< HEAD
 comment0.target=TipoRobots
 comment0.text=\r\n\ Pedro\ Serafim,Jose\ Pereira\ e\ Guilherme\ Morgado\r\n
 comment1.params=
 comment1.target=TipoRobots()
 numComments=2
+=======
+comment0.params=
+comment0.target=TipoRobots()
+numComments=1
+>>>>>>> 950e4c0509c5d73566046ad87638a2123ab59a90

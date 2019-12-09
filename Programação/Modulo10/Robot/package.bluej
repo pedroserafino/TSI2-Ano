@@ -8,6 +8,7 @@ dependency2.type=UsesDependency
 dependency3.from=Principal
 dependency3.to=Zoomorfico
 dependency3.type=UsesDependency
+<<<<<<< HEAD
 editor.fx.0.height=1056
 editor.fx.0.width=1936
 editor.fx.0.x=-8
@@ -22,21 +23,36 @@ package.editor.x=1343
 package.editor.y=271
 package.frame.height=600
 package.frame.width=800
+=======
+objectbench.height=89
+objectbench.width=765
+package.editor.height=397
+package.editor.width=651
+package.editor.x=201
+package.editor.y=157
+>>>>>>> 950e4c0509c5d73566046ad87638a2123ab59a90
 package.numDependencies=3
 package.numTargets=5
 package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
+<<<<<<< HEAD
 readme.height=58
 readme.name=@README
 readme.width=47
 readme.x=10
 readme.y=10
+=======
+>>>>>>> 950e4c0509c5d73566046ad87638a2123ab59a90
 target1.height=50
 target1.name=Zoomorfico
 target1.naviview.expanded=true
 target1.showInterface=false
 target1.type=ClassTarget
+<<<<<<< HEAD
+=======
+target1.typeParameters=
+>>>>>>> 950e4c0509c5d73566046ad87638a2123ab59a90
 target1.width=100
 target1.x=260
 target1.y=30
@@ -44,6 +60,10 @@ target2.height=50
 target2.name=TipoRobots
 target2.showInterface=false
 target2.type=AbstractTarget
+<<<<<<< HEAD
+=======
+target2.typeParameters=
+>>>>>>> 950e4c0509c5d73566046ad87638a2123ab59a90
 target2.width=100
 target2.x=20
 target2.y=180
@@ -63,10 +83,23 @@ target4.type=ClassTarget
 target4.width=80
 target4.x=220
 target4.y=140
+<<<<<<< HEAD
 target5.height=50
 target5.name=Principal
 target5.showInterface=false
 target5.type=ClassTarget
+=======
+target5.editor.height=908
+target5.editor.width=1543
+target5.editor.x=61
+target5.editor.y=-4
+target5.height=50
+target5.name=Principal
+target5.naviview.expanded=true
+target5.showInterface=false
+target5.type=ClassTarget
+target5.typeParameters=
+>>>>>>> 950e4c0509c5d73566046ad87638a2123ab59a90
 target5.width=80
 target5.x=160
 target5.y=10
